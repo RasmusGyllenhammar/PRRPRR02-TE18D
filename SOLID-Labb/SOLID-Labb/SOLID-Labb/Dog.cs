@@ -28,7 +28,7 @@ namespace SOLID_Labb
             Console.WriteLine("Dog is eating. " + _owner +" is happy!");
         }
 
-        public void TransferOwnership(string owner)
+        public void TransferOwnership(string owner) //Detta??? egen klass för detta???
         {
             _owner = owner;
         }
